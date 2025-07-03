@@ -53,7 +53,7 @@ export const Navbar = () => {
       </div>
       {/* Mobile dropdown menu */}
       {state && (
-        <div className="absolute top-full left-0 w-full bg-slate-900 shadow-lg z-50 md:hidden animate-fade-in">
+        <div className="absolute top-full left-0 w-full bg-slate-900 shadow-lg z-[9999] md:hidden animate-fade-in">
           <nav>
             <ul className="flex flex-col items-start text-base text-gray-200 p-4 space-y-2">
               <li><a className="py-2 px-4 block w-full" href="/">Home</a></li>
