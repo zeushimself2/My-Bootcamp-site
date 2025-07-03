@@ -23,7 +23,7 @@ const page = () => {
                         Innovating the Future with Data, Technology, and Expertise
                     </p>
                     <p className="mt-4 max-w-2xl text-lg text-gray-500 lg:mx-auto">
-                        At Z-Tech, we blend cutting-edge research with advanced technology solutions to address complex
+                        At Zeus Technologies, we blend cutting-edge research with advanced technology solutions to address complex
                         challenges. Together, we drive innovation, build robust systems, and push the boundaries of modern
                         development.
                     </p>
