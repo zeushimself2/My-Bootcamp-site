@@ -13,8 +13,8 @@ export default function index() {
 ]
 useEffect(() => {
   document.onclick = (e) => {
-      const target = e.target;
-      if (!target.closest(".menu-btn")) setState(false);
+    const target = e.target as HTMLElement | null;
+    if (!target || !target.closest(".menu-btn")) setState(false);
   };
 }, [])
 const Brand = () => (
