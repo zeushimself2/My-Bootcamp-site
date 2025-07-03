@@ -118,12 +118,7 @@ const Register = () => {
 
           <div className="mt-8 flex justify-end">
             <button
-              onClick={() =>
-                initializePayment({
-                  onSuccess: handlePaystackSuccessAction,
-                  onClose: handlePaystackCloseAction,
-                })
-              }
+              onClick={() => initializePayment(handlePaystackSuccessAction)}
               className="bg-teal-500 text-white px-4 py-2 rounded-lg hover:bg-teal-700"
             >
               Register
