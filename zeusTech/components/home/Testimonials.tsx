@@ -58,7 +58,7 @@ export default () => {
                         <div className="flex items-center space-x-4">
                             <div>
                                 <h3 className="text-lg font-semibold text-white">Stephen Kakari</h3>
-                                <p className="text-gray-500 text-md">Student (UMAT)</p>
+                                <p className="text-gray-500 text-md">Student (UENR)</p>
                             </div>
                         </div>
                         <p className="leading-normal text-gray-300 text-md">Thanks to Zeus Techologies, my programming skills are now boosted as I enrolled in their bootcamp and equipped myself with an in depth knowledge in javascript, typescript and react</p>
