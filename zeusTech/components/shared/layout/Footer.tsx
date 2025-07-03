@@ -1,5 +1,7 @@
 "use client"
+
 import React from 'react'
+import Link from 'next/link'
 
 export const Footer = () => { 
   return (
@@ -16,12 +18,12 @@ export const Footer = () => {
 
         </p>
   
-        <a
+        <Link
           href="/register"
           className="mt-8 inline-block rounded-full border border-indigo-600 px-12 py-3 text-sm font-medium text-indigo-600 hover:bg-indigo-600 hover:text-white focus:outline-none focus:ring active:bg-indigo-500"
         >
           Register
-        </a>
+        </Link>
       </div>
   
       <div
@@ -60,7 +62,6 @@ export const Footer = () => {
           </a>
           </li>
   
-          {/* Removed X (Twitter) icon as requested */}
   
           <li>
             <a
@@ -86,15 +87,5 @@ export const Footer = () => {
 }
 
 export default Footer
-// import React from 'react'
 
-// const Footer = () => {
-//   return (
-//     <div>
-      
-//     </div>
-//   )
-// }
-
-// export default Footer
 
