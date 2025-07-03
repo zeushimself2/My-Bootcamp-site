@@ -23,7 +23,12 @@ const PaystackButton: React.FC<PaystackButtonProps> = ({ amount, email, onSucces
 
   return (
     <button
-      onClick={() => initializePayment(onSuccess, onClose)}
+      onClick={() =>
+        initializePayment({
+          onSuccess,
+          onClose,
+        })
+      }
       style={{
         padding: '10px 20px',
         background: '#02a95c',
