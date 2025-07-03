@@ -8,7 +8,7 @@ const page = () => {
     <div className="mx-auto flex max-w-[58rem] flex-col items-center space-y-4 text-center">
         <h2 className="font-heading text-3xl leading-[1.1] sm:text-3xl md:text-6xl">Our Web Development Services</h2>
         <p className="max-w-[85%] leading-normal text-muted-foreground sm:text-lg sm:leading-7">
-            Z-Tech brings innovative and user-centric web solutions to life. Explore the services we offer to elevate your digital presence.
+            Zeus Technologies brings innovative and user-centric web solutions to life. Explore the services we offer to elevate your digital presence.
         </p>
     </div>
     <div className="mx-auto grid justify-center gap-4 sm:grid-cols-2 md:max-w-[64rem] md:grid-cols-3">
