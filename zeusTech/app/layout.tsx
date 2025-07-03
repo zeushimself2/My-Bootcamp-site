@@ -3,19 +3,20 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import { Navbar } from "@/components/shared/layout/Navbar";
 import { Footer } from "@/components/shared/layout/Footer";
+import Script from "next/script";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Z-Tek - Google Search",
+  title: "Zeus Technologies | Future-Ready Digital Solutions",
   description:
-    "We bring future innovations to life today. If interested. Click on the 'Contact Us' button below.",
+    "Zeus Technologies crafts bold, innovative digital experiences from Kumasi, Ghana. We build high-performance web tools and future-ready solutions to power tomorrow’s world.",
 
   // Open Graph
   openGraph: {
-    title: "Z-Tek -Google Search",
+    title: "Zeus Technologies | Future-Ready Digital Solutions",
     description:
-      "We bring future innovations to life today. If interested. Click on the 'Contact Us' button below.",
+      "Zeus Technologies crafts bold, innovative digital experiences from Kumasi, Ghana. We build high-performance web tools and future-ready solutions to power tomorrow’s world.",
     images:
       "https://img.freepik.com/free-photo/cardano-blockchain-platform_23-2150411956.jpg",
   },
@@ -31,7 +32,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-       <head>
+      <head>
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-LBT4WVEKG6"
           strategy="afterInteractive"
@@ -46,10 +47,10 @@ export default function RootLayout({
         </Script>
       </head>
       <body className={inter.className}>
-        <Navbar/>
+        <Navbar />
         {children}
-        <Footer/></body>
-
+        <Footer />
+      </body>
     </html>
   );
 }
